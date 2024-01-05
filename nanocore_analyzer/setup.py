@@ -15,7 +15,7 @@ setup(
     packages=find_packages(where='module'),
     install_requires=[
         'pefile==2019.4.18',
-        'pycryptodome==3.9.9',
+        'pycryptodome==3.19.1',
     ],
     scripts=[
         'scripts/nanocore_extract_keys.py',
